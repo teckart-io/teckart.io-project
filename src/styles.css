@@ -1,0 +1,48 @@
+body{
+    background-color : black;
+    margin: 0;
+    height : 100vh;
+    width : 100%;
+}
+
+/*** header ***/
+
+header{
+    display : flex;
+    padding: 0 15% 0 15%;
+    color : white;
+    height: auto;
+    width: auto;
+    justify-content:center;
+    align-items:stretch;
+}
+
+/*** navigation ***/
+
+nav ul {
+    list-style-type : none;
+    display: flex; 
+    justify-content : space-between;
+ }
+
+nav a {
+    color : white;
+    text-decoration: none;
+
+}
+.container{
+    background-color : white;
+    padding: 0 15% 0 15%;
+
+    overflow : hidden;
+}
+
+/*** footer ***/
+
+footer{
+    display: flex;
+    color : white;
+    padding: 0 15% 0 15%;
+    justify-content:space-between;
+    align-items:stretch;
+}
