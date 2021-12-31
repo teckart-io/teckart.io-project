@@ -61,7 +61,6 @@ nav {
     width: 100%;
     height: 100px;
     opacity: 0.9;
-
 }
 
 header li {
@@ -148,6 +147,8 @@ h4 {
     font-weight: bold;
 }
 
+/* ************** PROJETS *********** */
+
 #project{
     background-color:rgb(223, 222, 222);
     padding: 5px 0px 100px 0;
@@ -167,8 +168,19 @@ h4 {
     margin: 15px;
     font-weight: bold;
     color:black;
-
 }
+
+
+.block-project {
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px 10pc 10pc 10pc;
+    border-color: black;
+    background-color :white;
+    box-shadow: 1px;
+    margin: 5px 5px 5px 5px;
+}
+/* ************** HOBBIES *********** */
 
 #hobbies{
     background-color:white;
@@ -190,6 +202,16 @@ h4 {
     margin: 15px;
     font-weight: bold;
     color:black;
+}
+
+.block-hobbies {
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px 10pc 10pc 10pc;
+    border-color: black;
+    background-color :silver;
+    box-shadow: 1px;
+    margin: 5px 5px 5px 5px;
 
 }
 
@@ -199,7 +221,23 @@ footer{
     display: flex;
     background-color: black;
     color : white;
-    padding: 0 15%;
-    justify-content:space-around;
+    /* padding: 5px 5px; */
+    /* justify-content:space-around; */
     align-items:center;
+}
+
+/* #socialMedia {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#mention {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+} */
+
+#copyright {
+    width: 80%;
+    text-align: left;
 }
